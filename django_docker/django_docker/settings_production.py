@@ -15,7 +15,7 @@ DATABASES = {
         'USER': os.environ['DATABASE_USERNAME'],
         'PASSWORD': os.environ['DATABASE_PASSWORD'], # Entered via fab command; leave blank if using SQLite
         'HOST': os.environ['DATABASE_HOST'],                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'PORT': '',                      # Set to empty string for default.
+        'PORT': '6033',                      # Set to empty string for default.
     }
 }
 
